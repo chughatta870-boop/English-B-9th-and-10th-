@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="theme-color" content="#0d6b4f">
+<meta name="description" content="English B Guide for Class 9th and 10th - Punjab Textbook Board. Applications, Letters, Essays, Stories and Dialogues.">
+<title>English B 9th &amp; 10th - PTB Guide</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="app-header">
+  <button id="backBtn" class="icon-btn" aria-label="Back" hidden>&#8592;</button>
+  <h1 id="headerTitle">English B <span>9th &amp; 10th</span></h1>
+  <button id="searchToggle" class="icon-btn" aria-label="Search">&#128269;</button>
+</header>
+
+<div id="searchBar" class="search-bar" hidden>
+  <input type="text" id="searchInput" placeholder="Search title... (e.g. Sick Leave)">
+</div>
+
+<main id="app">
+
+  <!-- HOME / CATEGORY GRID -->
+  <section id="homeView" class="view">
+    <p class="tagline">Punjab Textbook Board &bull; Complete Guide with easy English content</p>
+    <div class="category-grid">
+      <button class="cat-card" data-cat="applications">
+        <span class="cat-icon">&#128203;</span>
+        <span class="cat-name">Applications</span>
+        <span class="cat-count">8+1 Topics</span>
+      </button>
+      <button class="cat-card" data-cat="letters">
+        <span class="cat-icon">&#9993;&#65039;</span>
+        <span class="cat-name">Letters</span>
+        <span class="cat-count">12 Topics</span>
+      </button>
+      <button class="cat-card" data-cat="essays">
+        <span class="cat-icon">&#128221;</span>
+        <span class="cat-name">Essays</span>
+        <span class="cat-count">13 Topics</span>
+      </button>
+      <button class="cat-card" data-cat="stories">
+        <span class="cat-icon">&#128218;</span>
+        <span class="cat-name">Stories</span>
+        <span class="cat-count">10 Topics</span>
+      </button>
+      <button class="cat-card" data-cat="dialogues">
+        <span class="cat-icon">&#128172;</span>
+        <span class="cat-name">Dialogues</span>
+        <span class="cat-count">8 Topics</span>
+      </button>
+    </div>
+    <div class="install-banner" id="installBanner" hidden>
+      <span>Install this app on your phone for offline use</span>
+      <button id="installBtn">Install</button>
+    </div>
+  </section>
+
+  <!-- LIST VIEW -->
+  <section id="listView" class="view" hidden>
+    <ul id="listContainer" class="item-list"></ul>
+  </section>
+
+  <!-- DETAIL VIEW -->
+  <section id="detailView" class="view" hidden>
+    <h2 id="detailTitle"></h2>
+    <pre id="detailBody" class="detail-body"></pre>
+    <div class="detail-actions">
+      <button id="downloadBtn" class="action-btn primary">&#11015;&#65039; Download</button>
+      <button id="copyBtn" class="action-btn">&#128203; Copy</button>
+    </div>
+  </section>
+
+</main>
+
+<footer class="app-footer">
+  M Ijaz &bull; GHS 124/NB
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

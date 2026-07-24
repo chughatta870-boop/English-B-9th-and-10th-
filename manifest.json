@@ -1,0 +1,68 @@
+{
+  "id": "/english-b-9-10/",
+  "name": "English B 9th & 10th - PTB Guide",
+  "short_name": "English B",
+  "description": "Complete English B guide for Class 9th and 10th - Punjab Textbook Board. Applications, Letters, Essays, Stories and Dialogues in easy English.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#f5f7f6",
+  "theme_color": "#0d6b4f",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["education", "reference", "books"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "icon-72.png", "sizes": "72x72", "type": "image/png", "purpose": "any" },
+    { "src": "icon-96.png", "sizes": "96x96", "type": "image/png", "purpose": "any" },
+    { "src": "icon-128.png", "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "icon-144.png", "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "icon-152.png", "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-384.png", "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Applications",
+      "short_name": "Applications",
+      "description": "Jump to Applications section",
+      "url": "./index.html?cat=applications",
+      "icons": [{ "src": "icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Essays",
+      "short_name": "Essays",
+      "description": "Jump to Essays section",
+      "url": "./index.html?cat=essays",
+      "icons": [{ "src": "icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Letters",
+      "short_name": "Letters",
+      "description": "Jump to Letters section",
+      "url": "./index.html?cat=letters",
+      "icons": [{ "src": "icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Home screen with categories"
+    },
+    {
+      "src": "screenshot-2.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Topic detail view"
+    }
+  ]
+}
